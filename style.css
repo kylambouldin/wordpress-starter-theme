@@ -1,0 +1,91 @@
+/*
+Theme Name: Wordpress Starter Theme
+Author: Kyla Bouldin
+Author URI: www.kylabouldin.com
+Description: Awesome starter theme for building custom Wordpress Themes
+Version: 1.0
+Tags: starter, basic
+*/
+
+/* ========== BASICS ========== */
+html, body {
+	font-family: 'opensans', sans-serif;
+	margin:0px;
+	padding:0px;
+	height:100%;
+	background-color: transparent;
+}
+
+.container {
+	min-height: 100%;
+	position: relative;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family:'opensans-bold', sans-serif;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+}
+
+
+/* ========== HEADER/NAVIGATION ========== */
+header {
+}
+
+nav {
+	background-color: #000;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul li {
+  display: inline;
+	margin: 10px;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+
+nav ul a, nav ul a:visited {
+	color: #FFF;
+}
+
+nav ul .active a, nav ul a:hover {
+	color: red;
+}
+
+/* ========== PAGE ========== */
+.pagebody {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: gray;
+}
+
+/* ========== FOOTER ========== */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	text-align: center;
+	height: 50px;
+}
+
+footer p {
+	color: #FFF;
+	line-height: 50px;
+}
