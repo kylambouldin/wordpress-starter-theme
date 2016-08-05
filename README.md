@@ -1,5 +1,5 @@
 # wordpress-starter-theme
-## blank template for custom wordpress theme development
+blank template for custom wordpress theme development
 
 ### Includes
 * Foundation-6.2.3
