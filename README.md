@@ -1,7 +1,7 @@
 # wordpress-starter-theme
-blank template for custom wordpress theme development
+## blank template for custom wordpress theme development
 
-Includes
+### Includes
 * Foundation-6.2.3
 * Sticky Footer
 * Primary and Footer menu locations
