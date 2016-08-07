@@ -7,7 +7,8 @@
 
 // 1) Enqueue theme stylesheets and scripts
 function themeslug_enqueue_style() {
-	wp_enqueue_style( 'main-css', get_template_directory_uri() . '/style.css', false ); 
+	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css', false ); 
+	wp_enqueue_style( 'foundation_css', get_template_directory_uri() . '/css/foundation.min.style.css', false ); 
 }
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );
 
